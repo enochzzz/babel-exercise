@@ -1,0 +1,1 @@
+- v1: convert ```console.log(1);``` to ```console.log(console.log('fileName（rows，cols）：', 1););```

@@ -1,0 +1,26 @@
+{
+  "name": "babel-exercise",
+  "version": "1.0.0",
+  "description": "babel-exercise",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enochzzz/babel-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enochzzz/babel-exercise/issues"
+  },
+  "homepage": "https://github.com/enochzzz/babel-exercise#readme",
+  "devDependencies": {
+    "@babel/generator": "^7.20.7",
+    "@babel/parser": "^7.20.7",
+    "@babel/traverse": "^7.20.8",
+    "@babel/types": "^7.20.7"
+  }
+}
