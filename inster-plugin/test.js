@@ -1,8 +1,8 @@
-import { transformFileSync } from '@babel/core'
+import { transform } from '@babel/core'
 import insertPlugin from './index.js'
 import path from 'node:path'
-
-const { code } = transformFileSync(path.join(path.resolve(), './code.js'), {
+import { sourceCode } from './code.js';
+const { code } = transform(sourceCode, {
     plugins: [insertPlugin],
     parserOpts: {
         sourceType: 'unambiguous',
